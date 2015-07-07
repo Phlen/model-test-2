@@ -1,0 +1,63 @@
+@import "compass/css3";
+@import "compass/layout";
+@import "compass/typography";
+@import "compass/utilities";
+
+.main {
+    .main_content {
+        padding: 60px 30px 0 30px;
+        overflow: hidden;
+        .content {
+            width: 530px;
+            float: left;
+            padding-right: 40px;
+            background: url("../../images/grunge_line_vertical.gif") repeat-y right top;
+
+            h2 {
+                color: #ebaf0d;
+                font: 28px/26px Georgia, "Times New Roman", Times, serif;
+                background: url(../../images/grunge_line.gif) repeat-x bottom center;
+                margin-bottom: 30px;
+                padding-bottom: 10px;
+            }
+            p {
+                margin-top: 0;
+            }
+
+
+        }
+
+        .sidebar {
+            width: 300px;
+            float: right;
+
+            .myPhoto {
+                margin-bottom: 30px;
+            }
+
+            ul {
+                list-style: none;
+                overflow: hidden;
+
+                li {
+                    display: list-item;
+                    line-height: 22px;
+                    a {
+                        text-decoration: none;
+                        color: #759fba;
+                        font-size: 14px;
+
+                        &:hover {
+                            color: #ffffff;
+                        }
+                        img {
+                            float: left;
+                            margin: 4px 10px 0 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

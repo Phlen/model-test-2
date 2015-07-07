@@ -1,0 +1,166 @@
+/* line 10, ../sass/common.scss */
+body {
+  font-size: 13px;
+  color: #868379;
+  font-family: arial, helvetica, sans-serif;
+  background: #000 url("../../images/body_bg.gif") no-repeat top center;
+}
+
+/* line 17, ../sass/common.scss */
+h3 {
+  font: 20px/28px Georgia, "Times New Roman", Times, serif;
+  color: #e7e7e7;
+  padding-bottom: 20px;
+}
+
+/* line 23, ../sass/common.scss */
+.quote {
+  padding-bottom: 34px;
+  background: url("../../images/quote.gif") no-repeat;
+}
+/* line 27, ../sass/common.scss */
+.quote p {
+  color: #91908b;
+  font: 16px/22px Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  line-height: 1.5em;
+  padding-bottom: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+/* line 37, ../sass/common.scss */
+.quote .cite {
+  color: #55524a;
+  font-size: 13px;
+  padding-bottom: 20px;
+}
+/* line 42, ../sass/common.scss */
+.quote .cite strong {
+  font-weight: bold;
+}
+/* line 46, ../sass/common.scss */
+.quote .cite a {
+  text-decoration: none;
+  color: #759fba;
+}
+/* line 50, ../sass/common.scss */
+.quote .cite a:hover {
+  color: #ffffff;
+}
+
+/* line 56, ../sass/common.scss */
+p {
+  display: block;
+  line-height: 24px;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+/* line 64, ../sass/common.scss */
+p a {
+  text-decoration: none;
+  color: #759fba;
+}
+/* line 67, ../sass/common.scss */
+p a:hover {
+  color: #ffffff;
+}
+
+/* line 72, ../sass/common.scss */
+.title_page {
+  background: url("../../images/title_page_bg.png") no-repeat;
+  height: 184px;
+  width: 100%;
+}
+/* line 77, ../sass/common.scss */
+.title_page h2 {
+  font: 38px/30px Georgia, "Times New Roman", Times, serif;
+  color: #fdfdfd;
+  padding-left: 40px;
+  padding-top: 70px;
+}
+
+/* line 84, ../sass/common.scss */
+.main-page {
+  width: 960px;
+  min-height: 300px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+/* line 91, ../sass/common.scss */
+.header {
+  width: 100%;
+  min-height: 100px;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+}
+/* line 98, ../sass/common.scss */
+.header .logo {
+  float: left;
+  cursor: pointer;
+  padding-top: 80px;
+}
+/* line 104, ../sass/common.scss */
+.header .available {
+  float: right;
+  cursor: pointer;
+}
+/* line 109, ../sass/common.scss */
+.header .navigation {
+  background: url("../../images/menu_bg.png") no-repeat;
+  width: 575px;
+  height: 68px;
+  float: right;
+  margin-top: 30px;
+  padding-right: 40px;
+}
+/* line 117, ../sass/common.scss */
+.header .navigation ul {
+  list-style: none;
+  padding: 30px 0 0 40px;
+}
+/* line 121, ../sass/common.scss */
+.header .navigation ul li {
+  display: inline-block;
+}
+/* line 124, ../sass/common.scss */
+.header .navigation ul li a {
+  text-decoration: none;
+  color: #c6c3af;
+  font-size: 20px;
+  padding: 10px;
+}
+/* line 131, ../sass/common.scss */
+.header .navigation ul li a:hover {
+  color: #696657;
+  background: url("../../images/menu_underline.gif") repeat-x bottom;
+}
+/* line 137, ../sass/common.scss */
+.header .navigation ul li .current {
+  color: #696657;
+  background: url("../../images/menu_underline.gif") repeat-x bottom;
+}
+
+/* line 145, ../sass/common.scss */
+.footer {
+  margin-top: 100px;
+  width: 960px;
+  height: 167px;
+  background: url("../../images/footer_bg.gif") no-repeat;
+}
+/* line 151, ../sass/common.scss */
+.footer .copyright {
+  background: url("../../images/grunge_line.gif") repeat-x top left;
+}
+/* line 154, ../sass/common.scss */
+.footer .copyright p {
+  text-align: right;
+  padding: 5px;
+}
+/* line 158, ../sass/common.scss */
+.footer .copyright p small {
+  font-size: 11px;
+}
