@@ -1,6 +1,6 @@
 /**
  * Created by Administrator on 15-4-12.
  */
-$(function(){
+$(function () {
   $(".work_image a").lightBox();
 })

@@ -4,60 +4,60 @@
 @import "compass/utilities";
 
 .main {
-    .main_content {
-        padding: 60px 30px 0 30px;
-        overflow: hidden;
-        .content {
-            width: 530px;
-            float: left;
-            padding-right: 40px;
-            background: url("../../images/grunge_line_vertical.gif") repeat-y right top;
+  .main_content {
+    padding: 60px 30px 0 30px;
+    overflow: hidden;
+    .content {
+      width: 530px;
+      float: left;
+      padding-right: 40px;
+      background: url("../../images/grunge_line_vertical.gif") repeat-y right top;
 
-            .row {
-                padding-bottom: 30px;
+      .row {
+        padding-bottom: 30px;
 
-                h2 {
-                    color: #ebaf0d;
-                    font: 28px/26px Georgia, "Times New Roman", Times, serif;
-                    background: url(../../images/grunge_line.gif) repeat-x bottom center;
-                    margin-bottom: 30px;
-                    padding-bottom: 10px;
-                }
-                p {
-                    margin-top: 0;
-                }
-            }
-
+        h2 {
+          color: #ebaf0d;
+          font: 28px/26px Georgia, "Times New Roman", Times, serif;
+          background: url(../../images/grunge_line.gif) repeat-x bottom center;
+          margin-bottom: 30px;
+          padding-bottom: 10px;
         }
-
-        .sidebar {
-            width: 300px;
-            float: right;
-
-            ul {
-                list-style: none;
-                padding-bottom: 20px;
-                li {
-                    width: 260px;
-                    padding: 6px 0;
-                    display: block;
-                    background: url("../../images/list_bottom_line.gif")repeat-x bottom center;
-                    a {
-                        color: #759fba;
-                        text-decoration: none;
-                        font-size: 14px;
-                        line-height: 24px;
-                        display: block;
-                        background: url("../../images/arrow_2.gif")no-repeat left .5em;
-                        padding-left: 24px;
-
-                        &:hover {
-                            color: #ffffff;
-                            background: url("../../images/arrow_2_hover.gif") no-repeat left .5em;
-                        }
-                    }
-                }
-            }
+        p {
+          margin-top: 0;
         }
+      }
+
     }
- }
+
+    .sidebar {
+      width: 300px;
+      float: right;
+
+      ul {
+        list-style: none;
+        padding-bottom: 20px;
+        li {
+          width: 260px;
+          padding: 6px 0;
+          display: block;
+          background: url("../../images/list_bottom_line.gif") repeat-x bottom center;
+          a {
+            color: #759fba;
+            text-decoration: none;
+            font-size: 14px;
+            line-height: 24px;
+            display: block;
+            background: url("../../images/arrow_2.gif") no-repeat left .5em;
+            padding-left: 24px;
+
+            &:hover {
+              color: #ffffff;
+              background: url("../../images/arrow_2_hover.gif") no-repeat left .5em;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -3,6 +3,7 @@
   padding: 60px 30px 0 30px;
   overflow: hidden;
 }
+
 /* line 10, ../sass/about.scss */
 .main .main_content .content {
   width: 530px;
@@ -10,6 +11,7 @@
   padding-right: 40px;
   background: url("../../images/grunge_line_vertical.gif") repeat-y right top;
 }
+
 /* line 16, ../sass/about.scss */
 .main .main_content .content h2 {
   color: #ebaf0d;
@@ -18,39 +20,47 @@
   margin-bottom: 30px;
   padding-bottom: 10px;
 }
+
 /* line 23, ../sass/about.scss */
 .main .main_content .content p {
   margin-top: 0;
 }
+
 /* line 30, ../sass/about.scss */
 .main .main_content .sidebar {
   width: 300px;
   float: right;
 }
+
 /* line 34, ../sass/about.scss */
 .main .main_content .sidebar .myPhoto {
   margin-bottom: 30px;
 }
+
 /* line 38, ../sass/about.scss */
 .main .main_content .sidebar ul {
   list-style: none;
   overflow: hidden;
 }
+
 /* line 42, ../sass/about.scss */
 .main .main_content .sidebar ul li {
   display: list-item;
   line-height: 22px;
 }
+
 /* line 45, ../sass/about.scss */
 .main .main_content .sidebar ul li a {
   text-decoration: none;
   color: #759fba;
   font-size: 14px;
 }
+
 /* line 50, ../sass/about.scss */
 .main .main_content .sidebar ul li a:hover {
   color: #ffffff;
 }
+
 /* line 53, ../sass/about.scss */
 .main .main_content .sidebar ul li a img {
   float: left;

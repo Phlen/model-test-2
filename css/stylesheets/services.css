@@ -3,6 +3,7 @@
   padding: 60px 30px 0 30px;
   overflow: hidden;
 }
+
 /* line 10, ../sass/services.scss */
 .main .main_content .content {
   width: 530px;
@@ -10,10 +11,12 @@
   padding-right: 40px;
   background: url("../../images/grunge_line_vertical.gif") repeat-y right top;
 }
+
 /* line 16, ../sass/services.scss */
 .main .main_content .content .row {
   padding-bottom: 30px;
 }
+
 /* line 19, ../sass/services.scss */
 .main .main_content .content .row h2 {
   color: #ebaf0d;
@@ -22,20 +25,24 @@
   margin-bottom: 30px;
   padding-bottom: 10px;
 }
+
 /* line 26, ../sass/services.scss */
 .main .main_content .content .row p {
   margin-top: 0;
 }
+
 /* line 33, ../sass/services.scss */
 .main .main_content .sidebar {
   width: 300px;
   float: right;
 }
+
 /* line 37, ../sass/services.scss */
 .main .main_content .sidebar ul {
   list-style: none;
   padding-bottom: 20px;
 }
+
 /* line 40, ../sass/services.scss */
 .main .main_content .sidebar ul li {
   width: 260px;
@@ -43,6 +50,7 @@
   display: block;
   background: url("../../images/list_bottom_line.gif") repeat-x bottom center;
 }
+
 /* line 45, ../sass/services.scss */
 .main .main_content .sidebar ul li a {
   color: #759fba;
@@ -53,6 +61,7 @@
   background: url("../../images/arrow_2.gif") no-repeat left 0.5em;
   padding-left: 24px;
 }
+
 /* line 54, ../sass/services.scss */
 .main .main_content .sidebar ul li a:hover {
   color: #ffffff;

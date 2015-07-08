@@ -4,6 +4,7 @@
   min-height: 400px;
   overflow: hidden;
 }
+
 /* line 10, ../sass/index.scss */
 .main #slider {
   width: 910px;
@@ -11,10 +12,12 @@
   overflow: hidden;
   margin: 0 0 0 24px;
 }
+
 /* line 16, ../sass/index.scss */
 .main #slider ul {
   overflow: hidden;
 }
+
 /* line 18, ../sass/index.scss */
 .main #slider ul li {
   width: 910px;
@@ -23,6 +26,7 @@
   padding-bottom: 0px;
   margin-bottom: 0;
 }
+
 /* line 24, ../sass/index.scss */
 .main #slider ul li .featured_image {
   height: 268px;
@@ -32,18 +36,21 @@
   background: url("../../images/featured_image_bg.png") no-repeat;
   padding: 12px;
 }
+
 /* line 33, ../sass/index.scss */
 .main #slider ul li .featured_desc {
   margin: 48px 0 0 20px;
   width: 520px;
   float: right;
 }
+
 /* line 38, ../sass/index.scss */
 .main #slider ul li .featured_desc .section_title {
   color: #56554f;
   font-size: 16px;
   font-weight: bold;
 }
+
 /* line 44, ../sass/index.scss */
 .main #slider ul li .featured_desc h2 {
   padding-bottom: 20px;
@@ -51,6 +58,7 @@
   font: 38px/30px Georgia, "Times New Roman", Times, serif;
   color: #fdfdfd;
 }
+
 /* line 50, ../sass/index.scss */
 .main #slider ul li .featured_desc p {
   color: #bdb8ab;
@@ -60,35 +68,42 @@
   font-size: 100%;
   font-family: arial, helvetica, sans-serif;
 }
+
 /* line 59, ../sass/index.scss */
 .main #slider ul li .featured_desc .view_project {
   width: 156px;
   height: 35px;
 }
+
 /* line 63, ../sass/index.scss */
 .main #slider ul li .featured_desc .view_project a {
   background: url("../../images/view_project.png") 0 0 no-repeat;
   padding: 10px 78px;
   cursor: pointer;
 }
+
 /* line 68, ../sass/index.scss */
 .main #slider ul li .featured_desc .view_project a:hover {
   background: url("../../images/view_project.png") 0 -35px no-repeat;
 }
+
 /* line 78, ../sass/index.scss */
 .main #slider #controls {
   margin: 0;
   position: relative;
 }
+
 /* line 84, ../sass/index.scss */
 .main .column_item {
   padding: 60px 30px 0 30px;
 }
+
 /* line 86, ../sass/index.scss */
 .main .column_item .column {
   width: 260px;
   overflow: hidden;
 }
+
 /* line 90, ../sass/index.scss */
 .main .column_item .column h2 {
   color: #ebaf0d;
@@ -96,17 +111,20 @@
   font: 28px/26px Georgia, "Times New Roman", Times, serif;
   background: url("../../images/grunge_line.gif") repeat-x bottom center;
 }
+
 /* line 97, ../sass/index.scss */
 .main .column_item .column .intro {
   font: 15px/22px Georgia, "Times New Roman", Times, serif;
   color: #d5d5d5;
   padding-bottom: 30px;
 }
+
 /* line 103, ../sass/index.scss */
 .main .column_item .column p {
   margin: 0;
   padding-bottom: 20px;
 }
+
 /* line 107, ../sass/index.scss */
 .main .column_item .column .read_more {
   display: block;
@@ -115,11 +133,13 @@
   text-indent: -99999px;
   background: url("../../images/readmore_btn.gif") no-repeat;
 }
+
 /* line 115, ../sass/index.scss */
 .main .column_item .column ul {
   list-style: none;
   padding-bottom: 20px;
 }
+
 /* line 118, ../sass/index.scss */
 .main .column_item .column ul li {
   width: 260px;
@@ -127,6 +147,7 @@
   display: block;
   background: url("../../images/list_bottom_line.gif") repeat-x bottom center;
 }
+
 /* line 123, ../sass/index.scss */
 .main .column_item .column ul li a {
   color: #759fba;
@@ -137,16 +158,19 @@
   background: url("../../images/arrow_2.gif") no-repeat left 0.5em;
   padding-left: 24px;
 }
+
 /* line 132, ../sass/index.scss */
 .main .column_item .column ul li a:hover {
   color: #ffffff;
   background: url("../../images/arrow_2_hover.gif") no-repeat left 0.5em;
 }
+
 /* line 140, ../sass/index.scss */
 .main .column_item .style1 {
   float: left;
   padding: 0;
 }
+
 /* line 144, ../sass/index.scss */
 .main .column_item .style2 {
   float: left;
